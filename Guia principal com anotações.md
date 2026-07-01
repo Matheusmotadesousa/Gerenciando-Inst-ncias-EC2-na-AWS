@@ -10,7 +10,9 @@ Monitoramento                   CloudWatch, Capacity Manager
 Como Navegar
 
 Iniciantes: Comece pelo docs/passo-a-passo.md
+
 Conceitos Avançados: Acesse o docs/aws-ec2-guide.md
+
 Prática: Execute os scripts em scripts/
 
 
