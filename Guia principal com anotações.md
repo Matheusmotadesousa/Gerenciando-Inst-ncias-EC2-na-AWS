@@ -8,21 +8,19 @@ Auto Scaling                    Grupos de Auto Scaling, políticas
 Monitoramento                   CloudWatch, Capacity Manager
 
 Como Navegar  
-Iniciantes: Comece pelo docs/passo-a-passo.md
-
-Conceitos Avançados: Acesse o docs/aws-ec2-guide.md
-
-Prática: Execute os scripts em scripts/
+Iniciantes: Comece pelo docs/passo-a-passo.md  
+Conceitos Avançados: Acesse o docs/aws-ec2-guide.md  
+Prática: Execute os scripts em scripts/  
 
 
-Tecnologias Utilizadas
-AWS EC2 - Serviço de computação
-AWS CLI - Interface de linha de comando
-AWS CloudFormation - Infraestrutura como código
-GitHub - Versionamento e documentação
+Tecnologias Utilizadas  
+AWS EC2 - Serviço de computação  
+AWS CLI - Interface de linha de comando  
+AWS CloudFormation - Infraestrutura como código  
+GitHub - Versionamento e documentação  
 
-Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Licença  
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.  
 
-Autor
+Autor  
 Matheus Mota de Sousa - Desafio DIO
