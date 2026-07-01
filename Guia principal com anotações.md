@@ -1,7 +1,7 @@
 Conteúdo do Guia
 
 Tópico                          Descrição
-Fundamentos do EC2              Tipos de instância, regiões, AMIs
+Fundamentos do EC2              Tipos de instância, regiões, AMIs  
 Gerenciamento Básico            Start, Stop, Reboot, Terminate
 Otimização de Custos            Instance Scheduler, Spot Instances
 Auto Scaling                    Grupos de Auto Scaling, políticas
