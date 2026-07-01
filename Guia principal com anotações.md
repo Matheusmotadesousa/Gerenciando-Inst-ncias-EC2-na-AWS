@@ -7,7 +7,7 @@ Otimização de Custos            Instance Scheduler, Spot Instances
 Auto Scaling                    Grupos de Auto Scaling, políticas
 Monitoramento                   CloudWatch, Capacity Manager
 
-Como Navegar
+Como Navegar  
 Iniciantes: Comece pelo docs/passo-a-passo.md
 
 Conceitos Avançados: Acesse o docs/aws-ec2-guide.md
