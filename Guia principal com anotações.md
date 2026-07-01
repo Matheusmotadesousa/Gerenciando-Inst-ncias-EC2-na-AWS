@@ -1,11 +1,15 @@
 Conteúdo do Guia
 
-Tópico                          Descrição
-Fundamentos do EC2              Tipos de instância, regiões, AMIs  
-Gerenciamento Básico            Start, Stop, Reboot, Terminate
-Otimização de Custos            Instance Scheduler, Spot Instances
-Auto Scaling                    Grupos de Auto Scaling, políticas
-Monitoramento                   CloudWatch, Capacity Manager
+Tópico: Fundamentos do EC2  
+Descrição: Tipos de instância, regiões, AMIs  
+Tópico: Gerenciamento Básico  
+Descrição:Start, Stop, Reboot, Terminate  
+Tópico: Otimização de Custos  
+Descrição: Instance Scheduler, Spot Instances  
+Tópico: Auto Scaling  
+Descrição: Grupos de Auto Scaling, políticas  
+Tópico:Monitoramento  
+Descrição: CloudWatch, Capacity Manager  
 
 Como Navegar  
 Iniciantes: Comece pelo docs/passo-a-passo.md  
