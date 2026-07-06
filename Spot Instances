@@ -1,0 +1,21 @@
+3. Spot Instances
+Economia de até 90% em workloads não críticos.
+
+Melhores Práticas:
+
+Use price-capacity-optimized para melhor disponibilidade
+
+Habilite Capacity Rebalancing
+
+Combine com On-Demand para resiliência
+
+Configurando Alarmes:
+aws cloudwatch put-metric-alarm \
+    --alarm-name "CPU-Alto" \
+    --metric-name CPUUtilization \
+    --namespace AWS/EC2 \
+    --statistic Average \
+    --period 300 \
+    --threshold 80 \
+    --comparison-operator GreaterThanThreshold \
+    --evaluation-periods 2
