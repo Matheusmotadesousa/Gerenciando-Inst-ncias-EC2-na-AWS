@@ -1,0 +1,24 @@
+1. AWS Instance Scheduler
+O Instance Scheduler automatiza o início e parada de instâncias com base em agendamentos.
+
+Vantagens:
+
+Redução de custos em até 70%
+
+Fácil configuração via CloudFormation
+
+Suporte a múltiplas regiões e contas
+
+Exemplo de Configuração:
+
+# schedule.yaml
+periods:
+  business-hours:
+    begin_time: "09:00"
+    end_time: "18:00"
+    timezone: "America/Sao_Paulo"
+
+  off-hours:
+    begin_time: "18:00"
+    end_time: "09:00"
+    timezone: "America/Sao_Paulo"
