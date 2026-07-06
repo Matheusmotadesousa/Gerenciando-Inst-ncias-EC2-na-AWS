@@ -1,0 +1,20 @@
+2. Auto Scaling Groups
+Permite escalabilidade automática baseada em demanda.
+
+Políticas de Escalonamento:
+
+Target Tracking: Mantém uma métrica alvo (ex: CPU 70%)
+
+Step Scaling: Ajusta capacidade em etapas
+
+Scheduled Scaling: Baseado em agendamento (ex: horário comercial)
+
+Configuração Básica:
+
+aws autoscaling create-auto-scaling-group \
+    --auto-scaling-group-name meu-asg \
+    --launch-template LaunchTemplateName=meu-template \
+    --min-size 2 \
+    --max-size 10 \
+    --desired-capacity 4 \
+    --vpc-zone-identifier "subnet-xxxxx"
